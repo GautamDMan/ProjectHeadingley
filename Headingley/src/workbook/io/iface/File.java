@@ -12,7 +12,6 @@ public interface File {
 	public void load(InputStream inStream) throws StorageException;
 	public void load(InputStreamReader inReader) throws StorageException;
 	public void close();
-	public void open();
 	public void save(String fileName) throws StorageException;
 	public void save(OutputStream outStream) throws StorageException;
 	public void save(OutputStreamWriter outWriter) throws StorageException;
